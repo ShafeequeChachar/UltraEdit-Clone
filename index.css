@@ -1,0 +1,510 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    background-color: #ffffff;
+}
+
+header{
+    height: 6vh;
+    width: 100vw;
+    background-color: #ffd741;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+header > p > span{
+    font-weight: bold;
+}
+
+header > img{
+    height: 15px;
+    position: relative;
+    left: 5px;
+}
+
+header > button{
+    position: relative;
+    left: 25px;
+    border: none;
+    background-color: #ffd741;
+    font-weight: bolder;
+    text-decoration: underline;
+    font-size: 15px;
+}
+
+header > button:hover{
+    color: rgb(202, 17, 17);
+    text-decoration: underline black;
+    cursor: pointer;
+}
+
+.navbar{
+    margin: auto;
+    margin-top: 20px;
+    width: 80vw;
+    height: 10vh;
+    background-color: #f6f6f6;
+    border: solid 1px rgb(209 207 207);
+    display: flex;
+    align-items: center;
+    border-radius: 3px;
+}
+
+.nav-left{
+    position: relative;
+    margin-left: 20px;
+}
+
+.nav-left:hover{
+    cursor: pointer;
+}
+
+.navbar > ul{
+    display: flex;
+    list-style: none;
+    position: relative;
+    left: 200px;
+
+}
+
+.navbar > ul > li{
+    padding: 10px;
+    font-size: 15px;
+}
+
+.navbar > ul > li:hover{
+    color: rgb(70, 69, 69);
+    cursor: pointer;
+}
+
+.adv-list:hover{
+    background-color: #e5e5e5;
+    border-radius: 3px;
+}
+
+.nav-right{
+    display: flex;
+    align-items: center;
+    position: relative;
+    left: 400px;
+}
+
+.nav-right > button{
+    background-color: #ffd741;
+    border: none;
+    padding: 5px;
+    width: 100px;
+    border-radius: 3px;
+    height: 35px;
+}
+
+.nav-right > i{
+    display: flex;
+    position: relative;
+    left: 15px;
+}
+
+.nav-right div{
+    position: relative;
+    left: 10px;
+    padding: 10px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.nav-right p{
+    position: relative;
+    top: 1px;
+}
+
+.nav-right > div:hover{
+    background-color: #e5e5e5;
+    cursor: pointer;
+}
+
+.search-icon{
+    position: relative;
+    left: 90px;
+}
+
+.nav-right > button:hover{
+    background-color: #ffd641d0;
+    color: rgb(59, 58, 58);
+    cursor: pointer;
+}
+
+.search-icon{
+    cursor: pointer;
+}
+
+main .heading{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    font-size: 50px;
+}
+
+.heading > i{
+    font-size: 50px;
+    position: relative;
+    left: 10px;
+    top: 5px;
+}
+
+main > p{
+    color: gray;
+    text-align: center;
+    font-size: 18px;
+    width: 500px;
+    margin: auto;
+    position: relative;
+    top: 50px;
+}
+
+main > button{
+    background-color: #ffd741;
+    border: none;
+    border-radius: 4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    width: 300px;
+    font-size: 14px;
+    margin: auto;
+    position: relative;
+    top: 90px;
+    gap: 10px;
+    box-shadow: 0px 0px 50px 0px #e5e5e5;
+}
+
+main > button:hover{
+    cursor: pointer;
+    background-color: #f7c820;
+}
+
+main > .ultra-edit{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 150px;
+    gap: 8px;
+    color: grey;
+    font-size: 17.5px;
+}
+
+.ultra-edit > p:nth-child(2){
+    font-size: 30px;
+}
+
+.ultra-edit > p:nth-child(3), .ultra-edit > p:last-child{
+    position: relative;
+    top: 5px;
+}
+
+.ultra-edit > p:last-child:hover{
+    cursor: pointer;
+}
+
+.card{
+    width: 440px;
+    height: 200px;
+    background-color: #f2f0ec;
+    display: block;
+    justify-items: center;
+    border-radius: 10px;
+    position: relative;
+    top: 200px;
+}
+
+.card > p:first-child{
+    font-weight: bold;
+    font-size: 22px;
+    position: relative;
+    top: 30px;
+}
+
+.card > p:nth-child(2){
+    font-weight: bold;
+    font-size: 18px;
+    position: relative;
+    top: 42px;
+}
+
+.card > button{
+    border: none;
+    background-color: #ffd741;
+    width: 135px;
+    height: 35px;
+    border-radius: 5px;
+    margin: auto; 
+    position: relative;
+    top: 54px;  
+    left: 152px;
+}
+
+.card > button:hover{
+    cursor: pointer;
+    background-color: #f7c820;
+}
+
+.card > p:nth-child(4){
+    font-size: 10px;
+    position: relative;
+    top: 66px; 
+}
+
+.card > p:nth-child(5){
+    font-size: 9px;
+    position: relative;
+    top: 78px; 
+}
+
+.card > p:nth-child(5):hover{
+    cursor: pointer;
+}
+
+.cards{
+    display: grid;
+    grid-template-columns: repeat(3, 30.5vw);
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    row-gap: 25px;
+}
+
+.sign-up{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 350px;
+    column-gap: 80px;
+}
+
+.sign-up > div:first-child{
+    width: 370px;
+    height: 150px;
+    font-weight: bold;
+    font-size: 30px;
+    color: #2e2e2e;
+}
+
+.sign-up > div:first-child > p:last-child{
+    font-weight: normal;
+    font-size: 14px;
+}
+
+
+.sign-up > div:last-child{
+    background-color: #2e2e2e;
+    color: #ffffff;
+    display: block;
+    justify-items: center;
+    align-content: center;
+    width: 450px;
+    height: 250px;
+    border-radius: 10px;
+    font-size: 18px;
+}
+
+.sign-up > div:last-child > p:first-child{
+    color: #03b4d1;
+    font-size: 27px;
+    position: relative;
+    top: -17px;
+}
+
+.sign-up > div:last-child > p:nth-child(2){
+    position: relative;
+    top: -5px;
+}
+
+.sign-up > div:last-child > form > input{
+    border-radius: 3px;
+    position: relative;
+    top: 10px;
+    border: none;
+    height: 35px;
+    width: 300px;
+    box-sizing: border-box;
+    padding: 10px;
+    font-size: 15px;
+}
+
+.sign-up > div:last-child > div > button{
+    border-radius: 3px;
+    position: relative;
+    top: 23px;
+    border: none;
+    height: 45px;
+    width: 80px;
+    font-size: 15px;
+    background-color: #ffd741;
+}
+
+.sign-up > div:last-child > div > button:hover{
+    cursor: pointer;
+}
+
+footer{
+    background-color: #f2f0ec;
+    position: relative;
+    top: 430px;
+    height: 900px;
+    display: block;
+    justify-items: center;
+    align-content: center;
+    font-size: 15px;
+}
+
+.top{
+    display: flex;
+    justify-content: center;
+    column-gap: 130px;
+    position: relative;
+    top: -50px;
+}
+
+.top > div{
+    width: 399px;
+    line-height: 20px;
+    word-spacing: 1px;
+}
+
+.top > div:last-child{
+    width: 410px;
+}
+
+.installer > p:first-child{
+    font-size: 30px;
+    margin-bottom: 12px;
+}
+
+.free-trial > p:first-child{
+    font-size: 30px;
+    margin-bottom: 12px;
+}
+
+.top a{
+    color: #977800;
+}
+
+.end{
+    width: 90vw;
+    height: 70vh;
+    background-color: #232323;
+    border-radius: 7px;
+    position: relative;
+    top: 35px;
+    color: #f6f6f6;
+    display: grid;
+    grid-template-columns: 30vw 60vw;
+    grid-template-rows: 50vh 20vh;
+}
+
+.footer-logo{
+    width: 350px;
+    position: relative;
+    top: 35px;
+    left: 35px;
+}
+
+.footer-logo > img, .footer-logo > p{
+    margin-bottom: 10px;
+}
+
+.footer-logo > p:nth-child(2){
+    font-size: 20px;
+}
+
+.footer-logo > p:nth-child(3){
+    line-height: 25px;
+}
+
+.footer-categories{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    position: relative;
+    top: 35px;
+    font-size: 18px;
+}
+
+.category > ul > li{
+    list-style: none;
+    color: #cccccc;
+    line-height: 30px;
+    font-size: 14px;
+}
+
+.category > ul > li:hover{
+    cursor: pointer;
+    color: #ffffff;
+}
+
+.footer-subscribe{
+    position: relative;
+    left: 35px;
+    font-weight: bold;
+}
+
+.footer-subscribe > *{
+    margin-bottom: 8px;
+}
+
+.footer-subscribe > p:nth-child(2){
+    color: rgb(210, 210, 210);
+    font-weight: normal;
+}
+
+.footer-subscribe > form{
+    background-color: rgb(59 59 59);
+    height: 40px;
+    width: 300px;
+    border-radius: 3px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-subscribe input{
+    background-color: rgb(59 59 59);
+    border: none;
+    font-size: 15px;
+}
+
+.footer-subscribe button{
+    background-color: #ffd741;
+    border: none;
+    height: 30px;
+    width: 90px;
+    border-radius: 3px;
+    position: relative;
+    left: 7px;
+}
+
+.footer-subscribe button:hover{
+    cursor: pointer;
+    background-color: #f7c820;
+}
+
+.end > div:last-child{
+    justify-self: end;
+    align-self: self-end;
+    position: relative;
+    top: -35px;
+    right: 35px;
+    font: 12px;
+    color: #cccccc;
+}
